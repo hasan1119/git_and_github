@@ -43,6 +43,10 @@ section {
 /* Header Style */
 header {
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
 }
 
 .inner_header {
@@ -215,4 +219,174 @@ header {
   align-items: center;
   justify-content: space-between;
   column-gap: 8px;
+}
+
+/* value section */
+
+.section_mini_title {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section_title {
+  margin: 10px 0 0 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+}
+
+.value_box_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+  column-gap: 2%;
+}
+
+.value_box {
+  padding: 30px;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  flex-basis: 32%;
+}
+
+.value_box .img_container {
+  width: 100%;
+  min-height: 300px;
+}
+
+.value_box .img_container img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.value_box:hover .img_container img {
+  transform: scale(0.9);
+}
+
+.value_box h4 {
+  font-size: 24px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+/* footer */
+
+.footer_news_latter {
+  padding: 50px 0;
+  background: #f6f9ff;
+  border-top: 1px solid #e1ecff;
+}
+
+.footer_news_latter h4 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  line-height: 1;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+}
+
+.footer_news_latter p {
+  text-align: center;
+}
+
+.footer_news_latter form {
+  max-width: 636px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+  background: #fff;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid #e1ecff;
+  padding-left: 10px;
+}
+
+.footer_news_latter form input[type="email"] {
+  flex: 1;
+  outline: none;
+  border: none;
+}
+
+.footer_news_latter form input[type="submit"] {
+  border: 0;
+  font-size: 16px;
+  padding: 15px 30px;
+  background: #4154f1;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+/* footer top */
+.footer_top {
+  background: white
+    url("https://bootstrapmade.com/demo/templates/FlexStart/assets/img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  border-top: 1px solid #e1ecff;
+  border-bottom: 1px solid #e1ecff;
+  padding: 60px 0 30px 0;
+}
+
+/* Footer Top */
+
+.inner_footer_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.inner_footer_info > div {
+  margin: 30px 0;
+  padding: 0 15px;
+}
+
+.footer_info {
+  flex-basis: 42%;
+}
+
+.footer_links {
+  flex-basis: 17%;
+}
+
+.footer_contact {
+  flex-basis: 23%;
+}
+
+.footer_info .logo {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.footer_info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer_info .social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
 }

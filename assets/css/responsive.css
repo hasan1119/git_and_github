@@ -30,9 +30,34 @@
   .banner_btn_container {
     justify-content: center;
   }
+  .banner_image {
+    margin-top: 40px;
+  }
 
   .inner_about {
     flex-direction: column;
+  }
+
+  .value_box_container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .value_box {
+    flex-basis: 100%;
+  }
+
+  .section_title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .footer_info {
+    flex-basis: 100%;
+  }
+
+  .footer_links {
+    flex-basis: 48%;
   }
 }
 
@@ -40,5 +65,13 @@
   .banner_content h1 {
     font-size: 38px;
     text-align: center;
+  }
+
+  .footer_news_latter form input[type="submit"] {
+    padding: 10px 16px;
+  }
+
+  .inner_footer_info {
+    justify-content: center;
   }
 }
